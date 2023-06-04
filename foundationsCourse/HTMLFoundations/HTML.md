@@ -96,3 +96,25 @@ Another element we should always include in the head of an HTML document is the 
   ```html
   <!-- I am a html comment -->
   ```
+
+5 Listing
+===
+- unordered lists
+  ```html
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+  </ul>
+  ```
+- ordered lists
+  ```html
+  <ol>
+    <li>Item 1</li>
+    <li>Item 2</li>
+  </ol>
+  ```
+
+6 Links and Images
+===
+
+
