@@ -1,5 +1,13 @@
-1 Introduction To HTML And CSS
-===
+<!-- vscode-markdown-toc -->
+
+<!-- vscode-markdown-toc-config
+	numbering=true
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+# 1 Introduction To HTML And CSS
+
 - HTML (HyperText Markup Language) puts information on a webpage.
 - CSS positions that information, gives it color, changes the font, and makes it look great!
 - They are only concerned with presenting information
@@ -26,8 +34,7 @@ Some of the most common web development languages include HTML, CSS, JavaScript,
 [FreeCodeCamp](https://www.freecodecamp.org/learn)
 [DevDocs.io](https://devdocs.io/)
 
-2 Elements And Tags
-===
+# 2 Elements And Tags
 forward slash `/`
 
 A full paragraph element looks like this:
@@ -40,8 +47,8 @@ self-closing tags or empty elements: elements that do not have a closing tag
 <br> or <img>
 ```
 
-3 HTML Boilerplate
-===
+# 3 HTML Boilerplate
+
 - The DOCTYPE
   ```<!DOCTYPE html>```
 - HTML Element
@@ -79,8 +86,8 @@ Another element we should always include in the head of an HTML document is the 
     ```
 - View HTML Files in the Browser
   
-4 Working With Text
-===
+# 4 Working With Text
+
 - Create paragraph
   A paragraph element is defined by wrapping text content with a `<p>` tag.
 - Headings
@@ -97,8 +104,7 @@ Another element we should always include in the head of an HTML document is the 
   <!-- I am a html comment -->
   ```
 
-5 Listing
-===
+# 5 Listing
 - unordered lists
   ```html
   <ul>
@@ -114,7 +120,43 @@ Another element we should always include in the head of an HTML document is the 
   </ol>
   ```
 
-6 Links and Images
-===
+# 6 Links and Images
+**anchor tags**
+```html
+<a>click me</a>
+```
+we need to add a href (hyperlink reference) attribute to the opening anchor tag.
+```html
+<a href="https://www.theodinproject.com/about">click me</a>
+```
+**Absolute links and relative links**
+- Absolute Links
+Links to pages on other websites on the internet are called absolute links. ```protocol://domain/path.```
+https://www.theodinproject.com/about
+- Relative Links
+Links to other pages within our own website are called relative links. 
+  ```html
+  <body>
+    <h1>Homepage</h1>
+    <a href="./pages/about.html">About</a>
+  </body>
+  ```
+**Images**
+```<img>```:  Empty, self-closing HTML elements do not need a closing tag.
+```html
+<img src="https://www.theodinproject.com/mstile-310x310.png">
+<img src="./images/dog.jpg">
+```
+**Alt Attribute**
+```html
+<img src="https://www.theodinproject.com/mstile-310x310.png" alt="The Odin Project Logo">
+```
+**Four Main Image Formats**
+[this](https://internetingishard.netlify.app/html-and-css/links-and-images/#image-formats)
+
+
+# 7 Commit Messages
+[How to Write a Git Commit Message](https://cbea.ms/git-commit/)
+
 
 
