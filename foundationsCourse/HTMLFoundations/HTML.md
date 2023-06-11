@@ -5,7 +5,7 @@
 	autoSave=true
 	/vscode-markdown-toc-config -->
 <!-- /vscode-markdown-toc -->
-
+[TOC]
 # 1 Introduction To HTML And CSS
 
 - HTML (HyperText Markup Language) puts information on a webpage.
@@ -157,6 +157,13 @@ Links to other pages within our own website are called relative links.
 
 # 7 Commit Messages
 [How to Write a Git Commit Message](https://cbea.ms/git-commit/)
-
-
-
+[Great sample](https://github.com/spring-projects/spring-framework/commits/5ba3db?author=philwebb)
+[Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+1. Separate subject from body with a blank line 
+2. Limit the subject line to 50 characters
+3. Capitalize the subject line
+4. Do not end the subject line with a period
+5. Use the imperative mood in the subject line
+6. Wrap the body at 72 characters
+7. Use the body to explain what and why vs. how
+   [commit from Bitcoin Core](https://github.com/bitcoin/bitcoin/commit/eb0b56b19017ab5c16c745e6da39c53126924ed6)
